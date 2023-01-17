@@ -61,7 +61,7 @@ document.querySelector(".top").addEventListener("click", toTop);
 
 function countdown(){
   var now = new Date();//"May 14, 2021 12:00:00"
-  var eventDate = new Date("November 10, 2021 12:00:00"); //the second value is the index of the month and not the month cardinality itself.
+  var eventDate = new Date("February 14, 2023 12:00:00"); //the second value is the index of the month and not the month cardinality itself.
 
   var currentTime = now.getTime();
   var eventTime = eventDate.getTime();
